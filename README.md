@@ -1,6 +1,6 @@
 DieForcePrototype
 =================
-Code related to the top down shooter Die Force <br>
+Code related to the top down shooter Tracker: Temple in the Sky<br>
 
 TODO: <br>
 Launch screen image <br>
