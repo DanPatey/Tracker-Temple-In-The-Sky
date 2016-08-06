@@ -34,7 +34,7 @@
 		2C5516DD1A0974B800F55C08 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		2C5516DF1A0974C900F55C08 /* License.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = License.txt; sourceTree = "<group>"; };
 		2C5516E11A1026A300F55C08 /* EnemySpriteController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnemySpriteController.swift; sourceTree = "<group>"; };
-		2C9D0FBB19F9AC320028E429 /* DieForcePrototype.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DieForcePrototype.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C9D0FBB19F9AC320028E429 /* Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C9D0FBF19F9AC320028E429 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2C9D0FC019F9AC320028E429 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2C9D0FC419F9AC320028E429 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
@@ -77,7 +77,7 @@
 		2C9D0FB219F9AC320028E429 = {
 			isa = PBXGroup;
 			children = (
-				2C9D0FBD19F9AC320028E429 /* DieForcePrototype */,
+				2C9D0FBD19F9AC320028E429 /* Tracker */,
 				2C5516DD1A0974B800F55C08 /* README.md */,
 				2C9D0FBC19F9AC320028E429 /* Products */,
 			);
@@ -86,12 +86,12 @@
 		2C9D0FBC19F9AC320028E429 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2C9D0FBB19F9AC320028E429 /* DieForcePrototype.app */,
+				2C9D0FBB19F9AC320028E429 /* Tracker.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2C9D0FBD19F9AC320028E429 /* DieForcePrototype */ = {
+		2C9D0FBD19F9AC320028E429 /* Tracker */ = {
 			isa = PBXGroup;
 			children = (
 				2C9D0FC019F9AC320028E429 /* AppDelegate.swift */,
@@ -108,7 +108,7 @@
 				2C422B171A3F7B3A00E2DDCD /* Resources */,
 				2C9D0FBE19F9AC320028E429 /* Supporting Files */,
 			);
-			path = DieForcePrototype;
+			path = Tracker;
 			sourceTree = "<group>";
 		};
 		2C9D0FBE19F9AC320028E429 /* Supporting Files */ = {
@@ -122,9 +122,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2C9D0FBA19F9AC320028E429 /* DieForcePrototype */ = {
+		2C9D0FBA19F9AC320028E429 /* Tracker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2C9D0FDE19F9AC330028E429 /* Build configuration list for PBXNativeTarget "DieForcePrototype" */;
+			buildConfigurationList = 2C9D0FDE19F9AC330028E429 /* Build configuration list for PBXNativeTarget "Tracker" */;
 			buildPhases = (
 				2C9D0FB719F9AC320028E429 /* Sources */,
 				2C9D0FB819F9AC320028E429 /* Frameworks */,
@@ -134,9 +134,9 @@
 			);
 			dependencies = (
 			);
-			name = DieForcePrototype;
+			name = Tracker;
 			productName = MySecondGame;
-			productReference = 2C9D0FBB19F9AC320028E429 /* DieForcePrototype.app */;
+			productReference = 2C9D0FBB19F9AC320028E429 /* Tracker.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -156,7 +156,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2C9D0FB619F9AC320028E429 /* Build configuration list for PBXProject "DieForcePrototype" */;
+			buildConfigurationList = 2C9D0FB619F9AC320028E429 /* Build configuration list for PBXProject "Tracker" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -169,7 +169,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2C9D0FBA19F9AC320028E429 /* DieForcePrototype */,
+				2C9D0FBA19F9AC320028E429 /* Tracker */,
 			);
 		};
 /* End PBXProject section */
@@ -310,10 +310,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				INFOPLIST_FILE = DieForcePrototype/Info.plist;
+				INFOPLIST_FILE = Tracker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Stefan.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = DieForcePrototype;
+				PRODUCT_BUNDLE_IDENTIFIER = Dan.Tracker;
+				PRODUCT_NAME = Tracker;
 				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
@@ -324,10 +324,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				INFOPLIST_FILE = DieForcePrototype/Info.plist;
+				INFOPLIST_FILE = Tracker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Stefan.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = DieForcePrototype;
+				PRODUCT_BUNDLE_IDENTIFIER = Dan.Tracker;
+				PRODUCT_NAME = Tracker;
 				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
@@ -335,7 +335,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2C9D0FB619F9AC320028E429 /* Build configuration list for PBXProject "DieForcePrototype" */ = {
+		2C9D0FB619F9AC320028E429 /* Build configuration list for PBXProject "Tracker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2C9D0FDC19F9AC330028E429 /* Debug */,
@@ -344,7 +344,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2C9D0FDE19F9AC330028E429 /* Build configuration list for PBXNativeTarget "DieForcePrototype" */ = {
+		2C9D0FDE19F9AC330028E429 /* Build configuration list for PBXNativeTarget "Tracker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2C9D0FDF19F9AC330028E429 /* Debug */,
