@@ -22,7 +22,8 @@
 		570B51DC1D55DF7900E45207 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570B51DB1D55DF7900E45207 /* IntroViewController.swift */; };
 		570B51DE1D564F3900E45207 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 570B51DD1D564F3900E45207 /* Launch Screen.storyboard */; };
 		57D73E351D566887006BEE02 /* TitleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D73E341D566887006BEE02 /* TitleViewController.swift */; };
-		57D73E371D566F86006BEE02 /* startbutton2-Recovered.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 57D73E361D566F86006BEE02 /* startbutton2-Recovered.mp4 */; };
+		57D73E371D566F86006BEE02 /* title.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 57D73E361D566F86006BEE02 /* title.mp4 */; };
+		57D73E3B1D569CB6006BEE02 /* dieforce.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 57D73E3A1D569CB6006BEE02 /* dieforce.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,7 +44,8 @@
 		570B51DB1D55DF7900E45207 /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
 		570B51DD1D564F3900E45207 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		57D73E341D566887006BEE02 /* TitleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleViewController.swift; sourceTree = "<group>"; };
-		57D73E361D566F86006BEE02 /* startbutton2-Recovered.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "startbutton2-Recovered.mp4"; sourceTree = "<group>"; };
+		57D73E361D566F86006BEE02 /* title.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = title.mp4; sourceTree = "<group>"; };
+		57D73E3A1D569CB6006BEE02 /* dieforce.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = dieforce.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +65,8 @@
 				2C422B151A3F752F00E2DDCD /* Explosion.wav */,
 				2C422B601A3F90C000E2DDCD /* ExplosionParticle.sks */,
 				2C422B591A3F892A00E2DDCD /* spark.png */,
-				57D73E361D566F86006BEE02 /* startbutton2-Recovered.mp4 */,
+				57D73E3A1D569CB6006BEE02 /* dieforce.mp4 */,
+				57D73E361D566F86006BEE02 /* title.mp4 */,
 				570B51D91D55DF1F00E45207 /* intro.mp4 */,
 			);
 			name = Resources;
@@ -181,7 +184,8 @@
 				2C422B611A3F90C000E2DDCD /* ExplosionParticle.sks in Resources */,
 				2C9D0FCA19F9AC320028E429 /* Main.storyboard in Resources */,
 				2C422B161A3F752F00E2DDCD /* Explosion.wav in Resources */,
-				57D73E371D566F86006BEE02 /* startbutton2-Recovered.mp4 in Resources */,
+				57D73E3B1D569CB6006BEE02 /* dieforce.mp4 in Resources */,
+				57D73E371D566F86006BEE02 /* title.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

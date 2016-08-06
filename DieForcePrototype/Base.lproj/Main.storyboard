@@ -23,7 +23,7 @@
                         </connections>
                     </view>
                     <connections>
-                        <segue destination="aos-R1-PUR" kind="showDetail" identifier="PresentTitleGameView" action="showViewController:sender:" id="Bsb-RY-cDi"/>
+                        <segue destination="aos-R1-PUR" kind="showDetail" identifier="PresentTitleGameView" animates="NO" action="showViewController:sender:" id="Bsb-RY-cDi"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vhV-p0-bm4" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -57,7 +57,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DRJ-9P-RkQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <tapGestureRecognizer id="Nxv-PS-WOL">
                     <connections>
-                        <segue destination="BV1-FR-VrT" kind="show" identifier="AfterVideoLoopSegue" id="5TH-0O-bna"/>
+                        <segue destination="BV1-FR-VrT" kind="show" identifier="AfterVideoLoopSegue" animates="NO" id="5TH-0O-bna"/>
                     </connections>
                 </tapGestureRecognizer>
             </objects>
@@ -79,10 +79,10 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SZV-WD-TEh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="398" y="207"/>
+            <point key="canvasLocation" x="485" y="213"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="iVa-Vj-06M"/>
+        <segue reference="5TH-0O-bna"/>
     </inferredMetricsTieBreakers>
 </document>

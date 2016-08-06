@@ -29,7 +29,7 @@ class TitleViewController: UIViewController {
             try AVAudioSession.sharedInstance().setCategory(AVAudioSessionCategoryAmbient)
         } catch { }
         
-        let path = NSBundle.mainBundle().pathForResource("startbutton2-Recovered", ofType:"mp4")
+        let path = NSBundle.mainBundle().pathForResource("title", ofType:"mp4")
         
         player = AVPlayer(URL: NSURL(fileURLWithPath: path!))
         let playerLayer = AVPlayerLayer(player: player)
@@ -53,9 +53,4 @@ class TitleViewController: UIViewController {
         
         performSegueWithIdentifier("AfterVideoLoopSegue", sender: self)
     }
-    
 }
-
-
-
-

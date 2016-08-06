@@ -41,13 +41,13 @@ class GameViewController: UIViewController {
         skView.presentScene(scene)
     }
 
-    override func shouldAutorotate() -> Bool {
-        return true
-    }
+//    override func shouldAutorotate() -> Bool {
+//        return true
+//    }
 
-    override func supportedInterfaceOrientations() -> UIInterfaceOrientationMask {
-        return UIInterfaceOrientationMask.LandscapeLeft
-    }
+//    override func supportedInterfaceOrientations() -> UIInterfaceOrientationMask {
+//        return UIInterfaceOrientationMask.LandscapeLeft
+//    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

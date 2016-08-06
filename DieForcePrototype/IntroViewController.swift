@@ -53,16 +53,7 @@ override func viewDidLoad() {
     }
     
     func endPresentationVideoTimer(){
-        print("end of presentation view")
         
         performSegueWithIdentifier("PresentTitleGameView", sender: self)
     }
-    
 }
-
-
-
-
-
-
-
