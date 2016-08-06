@@ -19,6 +19,7 @@ override func viewDidLoad() {
     super.viewDidLoad()
     
     loadVideo()
+    
     }
 
     private func loadVideo() {
@@ -34,12 +35,34 @@ override func viewDidLoad() {
         let playerLayer = AVPlayerLayer(player: player)
     
         playerLayer.frame = self.view.frame
-        playerLayer.videoGravity = AVLayerVideoGravityResizeAspectFill
+        playerLayer.videoGravity = AVLayerVideoGravityResize
         playerLayer.zPosition = -1
     
         self.view.layer.addSublayer(playerLayer)
     
         player?.seekToTime(kCMTimeZero)
         player?.play()
+        
+        // Timer that transitions from the video to the game
+        NSTimer.scheduledTimerWithTimeInterval(4, target: self, selector: #selector(endPresentationVideoTimer), userInfo: nil, repeats: true)
     }
+    
+    
+    @IBAction func whenPlayerTaps(sender: UITapGestureRecognizer) {
+        performSegueWithIdentifier("AfterTapped", sender: self)
+    }
+    
+    func endPresentationVideoTimer(){
+        print("end of presentation view")
+        
+        performSegueWithIdentifier("PresentTitleGameView", sender: self)
+    }
+    
 }
+
+
+
+
+
+
+

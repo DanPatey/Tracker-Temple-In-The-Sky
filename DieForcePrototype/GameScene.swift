@@ -83,7 +83,6 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         
     }
     
-    
     func starfieldEmitter(color: SKColor, starSpeedY: CGFloat, starsPerSecond: CGFloat, starScaleFactor: CGFloat) -> SKEmitterNode {
 
         // Determine the time a star is visible on screen
@@ -109,11 +108,8 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         return emitterNode
     }
 
-
-    
-    
     func explosion(pos: CGPoint) {
-        var emitterNode = SKEmitterNode(fileNamed: "ExplosionParticle.sks")
+        let emitterNode = SKEmitterNode(fileNamed: "ExplosionParticle.sks")
         emitterNode!.particlePosition = pos
         self.addChild(emitterNode!)
         self.runAction(SKAction.waitForDuration(2), completion: { emitterNode!.removeFromParent() })
@@ -179,7 +175,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         // Add icons to display the remaining lifes
         // Reuse the Spaceship image: Scale and position releative to the HUD size
         let lifeSize = CGSizeMake(hud.size.height-10, hud.size.height-10)
-        for(var i = 0; i<self.remainingLifes; i++) {
+        for(var i = 0; i<self.remainingLifes; i += 1) {
             let tmpNode = SKSpriteNode(imageNamed: "Spaceship")
             lifeNodes.append(tmpNode)
             tmpNode.size = lifeSize
@@ -218,14 +214,13 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         
         self.gamePaused = true
         
-        
         // Play sound:
         runAction(SKAction.playSoundFileNamed("Explosion.wav", waitForCompletion: false))
         
         // remove one life from hud
         if self.remainingLifes>0 {
             self.lifeNodes[remainingLifes-1].alpha=0.0
-            self.remainingLifes--;
+            self.remainingLifes -= 1;
         }
         
         // check if remaining lifes exists
@@ -243,7 +238,6 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         })
     }
     
-
     func showGameOverAlert() {
         self.gamePaused = true
         let alert = UIAlertController(title: "Game Over", message: "", preferredStyle: UIAlertControllerStyle.Alert)
@@ -264,7 +258,6 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         self.view?.window?.rootViewController?.presentViewController(alert, animated: true, completion: nil)
     }
 
-   
     func didBeginContact(contact: SKPhysicsContact) {
         if !self.gamePaused {
             lifeLost()
@@ -281,10 +274,9 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
                 _dLastShootTime=currentTime
                 
                 // Increase score
-                self.score++
+                self.score += 1
                 self.scoreNode.text = String(score)
             }
         }
     }
-
 }

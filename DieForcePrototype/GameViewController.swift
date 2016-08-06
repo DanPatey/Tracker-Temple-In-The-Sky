@@ -27,7 +27,6 @@ class GameViewController: UIViewController {
         // Scene should be shown in fullscreen mode
         let scene = GameScene(size: CGSizeMake(width, height))
         
-        
         // Configure the view.
         let skView = self.view as! SKView
         skView.showsFPS = true
