@@ -1,14 +1,14 @@
 DieForcePrototype
 =================
-Code related to the top down shooter Die Force
+Code related to the top down shooter Die Force <br>
 
-TODO:
-Launch screen image
-Add sound to intro videos
+TODO: <br>
+Launch screen image <br>
+Add sound to intro video <br>
 
-Drop custom sprites into it
-Drop custom sounds into it
+Drop custom sprites into it <br>
+Drop custom sounds into it <br>
 
-Create a stage scroll
-Create cutscenes
-Create multiple levels
+Create a stage scroll <br>
+Create cutscenes <br>
+Create multiple levels <br>
