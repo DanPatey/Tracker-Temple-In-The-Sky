@@ -19,6 +19,8 @@
 		2C9D0FCA19F9AC320028E429 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C9D0FC819F9AC320028E429 /* Main.storyboard */; };
 		2C9D0FCC19F9AC320028E429 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C9D0FCB19F9AC320028E429 /* Images.xcassets */; };
 		2C9D0FCF19F9AC320028E429 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C9D0FCD19F9AC320028E429 /* LaunchScreen.xib */; };
+		570B51DA1D55DF1F00E45207 /* intro.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 570B51D91D55DF1F00E45207 /* intro.mp4 */; };
+		570B51DC1D55DF7900E45207 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570B51DB1D55DF7900E45207 /* IntroViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		2C9D0FC919F9AC320028E429 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2C9D0FCB19F9AC320028E429 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		2C9D0FCE19F9AC320028E429 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		570B51D91D55DF1F00E45207 /* intro.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = intro.mp4; sourceTree = "<group>"; };
+		570B51DB1D55DF7900E45207 /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +85,12 @@
 			children = (
 				2C422B171A3F7B3A00E2DDCD /* Resources */,
 				2C9D0FC019F9AC320028E429 /* AppDelegate.swift */,
+				570B51D91D55DF1F00E45207 /* intro.mp4 */,
 				2C9D0FC419F9AC320028E429 /* GameScene.swift */,
 				2C5516E11A1026A300F55C08 /* EnemySpriteController.swift */,
 				2C9D0FC619F9AC320028E429 /* GameViewController.swift */,
 				2C9D0FC819F9AC320028E429 /* Main.storyboard */,
+				570B51DB1D55DF7900E45207 /* IntroViewController.swift */,
 				2C9D0FCB19F9AC320028E429 /* Images.xcassets */,
 				2C9D0FCD19F9AC320028E429 /* LaunchScreen.xib */,
 				2C5516DF1A0974C900F55C08 /* License.txt */,
@@ -165,6 +171,7 @@
 				2C422B5B1A3F892A00E2DDCD /* spark.png in Resources */,
 				2C9D0FCF19F9AC320028E429 /* LaunchScreen.xib in Resources */,
 				2C9D0FCC19F9AC320028E429 /* Images.xcassets in Resources */,
+				570B51DA1D55DF1F00E45207 /* intro.mp4 in Resources */,
 				2C422B611A3F90C000E2DDCD /* ExplosionParticle.sks in Resources */,
 				2C9D0FCA19F9AC320028E429 /* Main.storyboard in Resources */,
 				2C422B161A3F752F00E2DDCD /* Explosion.wav in Resources */,
@@ -181,6 +188,7 @@
 				2C5516E21A1026A300F55C08 /* EnemySpriteController.swift in Sources */,
 				2C9D0FC519F9AC320028E429 /* GameScene.swift in Sources */,
 				2C9D0FC719F9AC320028E429 /* GameViewController.swift in Sources */,
+				570B51DC1D55DF7900E45207 /* IntroViewController.swift in Sources */,
 				2C5516DE1A0974B800F55C08 /* README.md in Sources */,
 				2C9D0FC119F9AC320028E429 /* AppDelegate.swift in Sources */,
 			);

@@ -20,9 +20,9 @@ class GameViewController: UIViewController {
         super.viewDidAppear(animated)
         
         // Detect the screensize
-        var sizeRect = UIScreen.mainScreen().applicationFrame
-        var width = sizeRect.size.width * UIScreen.mainScreen().scale
-        var height = sizeRect.size.height * UIScreen.mainScreen().scale
+        let sizeRect = UIScreen.mainScreen().applicationFrame
+        let width = sizeRect.size.width * UIScreen.mainScreen().scale
+        let height = sizeRect.size.height * UIScreen.mainScreen().scale
         
         // Scene should be shown in fullscreen mode
         let scene = GameScene(size: CGSizeMake(width, height))
