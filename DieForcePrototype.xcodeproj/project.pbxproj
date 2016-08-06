@@ -24,6 +24,7 @@
 		57D73E351D566887006BEE02 /* TitleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D73E341D566887006BEE02 /* TitleViewController.swift */; };
 		57D73E371D566F86006BEE02 /* title.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 57D73E361D566F86006BEE02 /* title.mp4 */; };
 		57D73E3B1D569CB6006BEE02 /* dieforce.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 57D73E3A1D569CB6006BEE02 /* dieforce.mp4 */; };
+		57D73E3D1D569F3C006BEE02 /* InitalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D73E3C1D569F3C006BEE02 /* InitalViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		57D73E341D566887006BEE02 /* TitleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleViewController.swift; sourceTree = "<group>"; };
 		57D73E361D566F86006BEE02 /* title.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = title.mp4; sourceTree = "<group>"; };
 		57D73E3A1D569CB6006BEE02 /* dieforce.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = dieforce.mp4; sourceTree = "<group>"; };
+		57D73E3C1D569F3C006BEE02 /* InitalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitalViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 				2C5516E11A1026A300F55C08 /* EnemySpriteController.swift */,
 				2C9D0FC619F9AC320028E429 /* GameViewController.swift */,
 				2C9D0FC819F9AC320028E429 /* Main.storyboard */,
+				57D73E3C1D569F3C006BEE02 /* InitalViewController.swift */,
 				570B51DB1D55DF7900E45207 /* IntroViewController.swift */,
 				57D73E341D566887006BEE02 /* TitleViewController.swift */,
 				570B51DD1D564F3900E45207 /* Launch Screen.storyboard */,
@@ -201,6 +204,7 @@
 				2C9D0FC719F9AC320028E429 /* GameViewController.swift in Sources */,
 				57D73E351D566887006BEE02 /* TitleViewController.swift in Sources */,
 				570B51DC1D55DF7900E45207 /* IntroViewController.swift in Sources */,
+				57D73E3D1D569F3C006BEE02 /* InitalViewController.swift in Sources */,
 				2C5516DE1A0974B800F55C08 /* README.md in Sources */,
 				2C9D0FC119F9AC320028E429 /* AppDelegate.swift in Sources */,
 			);
