@@ -312,7 +312,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Tracker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Dan.Tracker;
+				PRODUCT_BUNDLE_IDENTIFIER = DieForce.Tracker;
 				PRODUCT_NAME = Tracker;
 				PROVISIONING_PROFILE = "";
 			};
@@ -326,7 +326,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Tracker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Dan.Tracker;
+				PRODUCT_BUNDLE_IDENTIFIER = DieForce.Tracker;
 				PRODUCT_NAME = Tracker;
 				PROVISIONING_PROFILE = "";
 			};
