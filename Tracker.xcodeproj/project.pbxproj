@@ -25,6 +25,10 @@
 		57D73E371D566F86006BEE02 /* title.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 57D73E361D566F86006BEE02 /* title.mp4 */; };
 		57D73E3B1D569CB6006BEE02 /* dieforce.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 57D73E3A1D569CB6006BEE02 /* dieforce.mp4 */; };
 		57D73E3D1D569F3C006BEE02 /* InitalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D73E3C1D569F3C006BEE02 /* InitalViewController.swift */; };
+		999D57741D5934D500C9602C /* Level 1.sks in Resources */ = {isa = PBXBuildFile; fileRef = 999D57731D5934D500C9602C /* Level 1.sks */; };
+		999D57761D59354B00C9602C /* Level1.png in Resources */ = {isa = PBXBuildFile; fileRef = 999D57751D59354B00C9602C /* Level1.png */; };
+		999D577A1D5935BF00C9602C /* PlayScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 999D57781D5935BF00C9602C /* PlayScene.swift */; };
+		999D577B1D5935BF00C9602C /* PlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 999D57791D5935BF00C9602C /* PlayViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +52,10 @@
 		57D73E361D566F86006BEE02 /* title.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = title.mp4; sourceTree = "<group>"; };
 		57D73E3A1D569CB6006BEE02 /* dieforce.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = dieforce.mp4; sourceTree = "<group>"; };
 		57D73E3C1D569F3C006BEE02 /* InitalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitalViewController.swift; sourceTree = "<group>"; };
+		999D57731D5934D500C9602C /* Level 1.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = "Level 1.sks"; sourceTree = "<group>"; };
+		999D57751D59354B00C9602C /* Level1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Level1.png; sourceTree = "<group>"; };
+		999D57781D5935BF00C9602C /* PlayScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayScene.swift; sourceTree = "<group>"; };
+		999D57791D5935BF00C9602C /* PlayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,16 +103,19 @@
 			isa = PBXGroup;
 			children = (
 				2C9D0FC019F9AC320028E429 /* AppDelegate.swift */,
-				2C9D0FC419F9AC320028E429 /* GameScene.swift */,
 				2C5516E11A1026A300F55C08 /* EnemySpriteController.swift */,
+				2C9D0FC419F9AC320028E429 /* GameScene.swift */,
 				2C9D0FC619F9AC320028E429 /* GameViewController.swift */,
 				2C9D0FC819F9AC320028E429 /* Main.storyboard */,
+				999D57781D5935BF00C9602C /* PlayScene.swift */,
+				999D57791D5935BF00C9602C /* PlayViewController.swift */,
 				57D73E3C1D569F3C006BEE02 /* InitalViewController.swift */,
 				570B51DB1D55DF7900E45207 /* IntroViewController.swift */,
 				57D73E341D566887006BEE02 /* TitleViewController.swift */,
 				570B51DD1D564F3900E45207 /* Launch Screen.storyboard */,
 				2C9D0FCB19F9AC320028E429 /* Images.xcassets */,
 				2C5516DF1A0974C900F55C08 /* License.txt */,
+				999D57771D59355500C9602C /* Levels */,
 				2C422B171A3F7B3A00E2DDCD /* Resources */,
 				2C9D0FBE19F9AC320028E429 /* Supporting Files */,
 			);
@@ -117,6 +128,15 @@
 				2C9D0FBF19F9AC320028E429 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		999D57771D59355500C9602C /* Levels */ = {
+			isa = PBXGroup;
+			children = (
+				999D57731D5934D500C9602C /* Level 1.sks */,
+				999D57751D59354B00C9602C /* Level1.png */,
+			);
+			name = Levels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,6 +201,7 @@
 			files = (
 				2C5516E01A0974C900F55C08 /* License.txt in Resources */,
 				2C422B5B1A3F892A00E2DDCD /* spark.png in Resources */,
+				999D57761D59354B00C9602C /* Level1.png in Resources */,
 				570B51DE1D564F3900E45207 /* Launch Screen.storyboard in Resources */,
 				2C9D0FCC19F9AC320028E429 /* Images.xcassets in Resources */,
 				570B51DA1D55DF1F00E45207 /* intro.mp4 in Resources */,
@@ -189,6 +210,7 @@
 				2C422B161A3F752F00E2DDCD /* Explosion.wav in Resources */,
 				57D73E3B1D569CB6006BEE02 /* dieforce.mp4 in Resources */,
 				57D73E371D566F86006BEE02 /* title.mp4 in Resources */,
+				999D57741D5934D500C9602C /* Level 1.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,10 +222,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C5516E21A1026A300F55C08 /* EnemySpriteController.swift in Sources */,
+				999D577A1D5935BF00C9602C /* PlayScene.swift in Sources */,
 				2C9D0FC519F9AC320028E429 /* GameScene.swift in Sources */,
 				2C9D0FC719F9AC320028E429 /* GameViewController.swift in Sources */,
 				57D73E351D566887006BEE02 /* TitleViewController.swift in Sources */,
 				570B51DC1D55DF7900E45207 /* IntroViewController.swift in Sources */,
+				999D577B1D5935BF00C9602C /* PlayViewController.swift in Sources */,
 				57D73E3D1D569F3C006BEE02 /* InitalViewController.swift in Sources */,
 				2C5516DE1A0974B800F55C08 /* README.md in Sources */,
 				2C9D0FC119F9AC320028E429 /* AppDelegate.swift in Sources */,
